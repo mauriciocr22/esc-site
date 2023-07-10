@@ -13,6 +13,8 @@ body,
 }
 
 body {
+  @apply font-openSans;
+
   -webkit-font-smoothing: antialised;
   text-rendering: optimizeLegibility;
 }
