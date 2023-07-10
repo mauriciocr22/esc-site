@@ -1,10 +1,5 @@
 import bandImg from "../assets/band.jpg";
-import {
-  FacebookLogo,
-  SpotifyLogo,
-  YoutubeLogo,
-  InstagramLogo,
-} from "@phosphor-icons/react";
+import { Socials } from "./Socials";
 
 export function Header() {
   return (
@@ -18,26 +13,7 @@ export function Header() {
       </div>
       <div className="p-6 z-10">
         <h1 className="font-bold text-[12rem] mb-5 leading-none">ESC</h1>
-        <div className="flex flex-row w-full justify-around">
-          <a href="https://www.facebook.com/escoficial/" target="_blank">
-            <FacebookLogo size={36} />
-          </a>
-          <a
-            href="https://open.spotify.com/artist/4bSbSpBEcTMqP16mYh7iyv?si=hrg4H7zASTCtmLItDL0VQw"
-            target="_blank"
-          >
-            <SpotifyLogo size={36} />
-          </a>
-          <a href="https://www.instagram.com/escoficial/" target="_blank">
-            <InstagramLogo size={36} />
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCToWfNIBkrJIEyqLBlYdC_Q"
-            target="_blank"
-          >
-            <YoutubeLogo size={36} />
-          </a>
-        </div>
+        <Socials />
       </div>
     </header>
   );
