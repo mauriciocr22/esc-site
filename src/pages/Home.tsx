@@ -9,10 +9,28 @@ export function Home() {
       <Header />
       <main className="w-full max-w-[1200px] my-0 mx-auto py-8 mt-[1rem] gap-12 text-white">
         <div className="flex justify-center mb-12">
-          <nav className="font-bold font-lexend flex gap-20 text-2xl">
-            <a href="">INSTAGRAM</a>
-            <a href="">YOUTUBE</a>
-            <a href="">SPOTIFY</a>
+          <nav className="font-bold font-lexend flex gap-20 text-2xl ">
+            <a
+              className="hover:underline"
+              href="https://www.instagram.com/escoficial/"
+              target="_blank"
+            >
+              INSTAGRAM
+            </a>
+            <a
+              className="hover:underline"
+              href="https://www.youtube.com/channel/UCToWfNIBkrJIEyqLBlYdC_Q"
+              target="_blank"
+            >
+              YOUTUBE
+            </a>
+            <a
+              className="hover:underline"
+              href="https://open.spotify.com/artist/4bSbSpBEcTMqP16mYh7iyv?si=hrg4H7zASTCtmLItDL0VQw"
+              target="_blank"
+            >
+              SPOTIFY
+            </a>
           </nav>
         </div>
         <section className="mx-4 mb-16 flex items-center">
