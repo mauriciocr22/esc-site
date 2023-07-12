@@ -2,7 +2,7 @@ import { SpotifyLogo, YoutubeLogo, InstagramLogo } from "@phosphor-icons/react";
 
 export function Socials() {
   return (
-    <div className="flex flex-row w-full gap-6">
+    <div className="flex flex-row gap-6">
       <a
         className="hover:text-green-600 transition-colors"
         href="https://open.spotify.com/artist/4bSbSpBEcTMqP16mYh7iyv?si=hrg4H7zASTCtmLItDL0VQw"
