@@ -7,10 +7,7 @@ import {
 
 export function Socials() {
   return (
-    <div className="flex flex-row w-full justify-around">
-      <a href="https://www.facebook.com/escoficial/" target="_blank">
-        <FacebookLogo size={36} />
-      </a>
+    <div className="flex flex-row w-full gap-8">
       <a
         href="https://open.spotify.com/artist/4bSbSpBEcTMqP16mYh7iyv?si=hrg4H7zASTCtmLItDL0VQw"
         target="_blank"
