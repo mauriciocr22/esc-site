@@ -12,7 +12,7 @@ export function Header() {
           alt=""
         />
       </div>
-      <div className="p-6 z-10 w-2/5">
+      <div className="p-6 z-10 w-2/5 min-w-[400px]">
         {/* <h1 className="font-bold text-[12rem] mb-5 leading-none">ESC</h1> */}
         <img className="mb-4" src={logoImg} alt="" />
         {/* <Socials /> */}

@@ -9,23 +9,23 @@ export function Home() {
       <Header />
       <main className="w-full max-w-[1200px] my-0 mx-auto py-8 mt-[1rem] gap-12 text-white">
         <div className="flex justify-center mb-12">
-          <nav className="font-bold font-lexend flex gap-20 text-2xl ">
+          <nav className="font-bold font-lexend hidden gap-16 text-2xl md:flex">
             <a
-              className="hover:underline"
+              className="hover:text-green-600 transition-colors"
               href="https://www.instagram.com/escoficial/"
               target="_blank"
             >
               INSTAGRAM
             </a>
             <a
-              className="hover:underline"
+              className="hover:text-green-600 transition-colors"
               href="https://www.youtube.com/channel/UCToWfNIBkrJIEyqLBlYdC_Q"
               target="_blank"
             >
               YOUTUBE
             </a>
             <a
-              className="hover:underline"
+              className="hover:text-green-600 transition-colors"
               href="https://open.spotify.com/artist/4bSbSpBEcTMqP16mYh7iyv?si=hrg4H7zASTCtmLItDL0VQw"
               target="_blank"
             >
@@ -33,8 +33,8 @@ export function Home() {
             </a>
           </nav>
         </div>
-        <section className="mx-4 mb-16 flex items-center">
-          <div className="flex flex-col items-start mb-6 md:w-1/2">
+        <section className="mx-4 mb-16 flex-col flex gap-4 items-center md:flex-row">
+          <div className="flex flex-col items-center mb-6 md:items-start md:w-1/2">
             <h1 className="text-4xl mb-4 font-lexend">Lorem ipsum dolor</h1>
             <p className="text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -61,20 +61,20 @@ export function Home() {
             className="md:h-[500px]"
             style={{ borderRadius: "12px", maxWidth: "900px" }}
             width="100%"
-            height="250px"
+            height="300px"
             src="https://www.youtube.com/embed/videoseries?list=PL40F4890AC1C40C87"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </section>
       </main>
-      <footer className="w-full text-white h-[200px] bg-[#242424]">
-        <div className="max-w-[1200px] p-6 my-0 mx-auto flex justify-between">
+      <footer className="w-full text-white h-60 bg-[#242424]">
+        <div className="max-w-[1200px] flex-col p-6 my-0 mx-auto flex justify-between md:flex-row">
           {/* <h1 className="text-6xl">ESC</h1> */}
-          <img className="w-3/12 p-4" src={logoImg} alt="" />
+          <img className="w-72 mb-6" src={logoImg} alt="" />
           <div>
             <div className="w-[22rem] py-2">
-              <h1 className="text-xl font-lexend mb-2">
+              <h1 className="text-xl font-lexend mb-3">
                 Siga-nos em nossas redes sociais
               </h1>
               <Socials />
